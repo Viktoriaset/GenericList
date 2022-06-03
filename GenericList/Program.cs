@@ -238,6 +238,7 @@ namespace GenericList
 				if (temp.next == null)
 				{
 					Console.WriteLine("Error remove");
+					break;
 				}
 				temp = temp.next;
 
